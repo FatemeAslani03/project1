@@ -1,1 +1,19 @@
-<p>login-page works!</p>
+<section class="login">
+    <div>
+        <label for="username">نام کاربری</label>
+        <input [(ngModel)]="username" id="username" type="text" placeholder="نام کاربری">
+    </div>
+
+    <div>
+        <label for="pass"> کلمه عبور</label>
+        <input [(ngModel)]="pass"  id="pass" type="password" placeholder=" کلمه عبور">
+    </div>
+    <div>
+       <button [disabled]="username==''||pass==''" (click)="test()">ورود</button>
+    </div>
+    @if (message!='') {
+        <div class="mess">{{message}}</div>
+    }
+
+    
+</section>

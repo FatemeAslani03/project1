@@ -1,0 +1,30 @@
+#banner {
+  background-color: #e3f2fd;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0277bd; 
+  margin-bottom: 15px;
+}
+
+#menu {
+  text-align: center;
+  padding: 12px;
+  background-color: #bbdefb; 
+}
+
+#menu a {
+  margin: 0 14px;
+  text-decoration: none;
+  color: white; 
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: color 0.2s; 
+}
+
+#menu a:hover {
+  color: #ff9800; 
+}
